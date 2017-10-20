@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<form>
+		<label for"FirstName">First Name:</label>
+		<input id="FirstName" type="text" placeholder="First Name" required>
+
+		<label for"LastName">Last Name:</label>
+		<input id="LastName" type="text" placeholder="Last Name" required>
+
+		<p>
+			<label for="male">Male</label>
+			<input name="Gender" id="male" type="radio" value="Male">
+
+			<label for="female">Female</label>
+			<input name="Gender" id="female" type="radio" value="Female">
+
+			<label for="other">Other</label>
+			<input name="Gender" id="other" type="radio" value="Other">
+		</p>
+		<p>
+			<label for="email">Email</label>
+			<input name="email" id="email" type="email" placeholder="Email" required>
+
+			<label for="password">Password</label>
+			<input name="password" id="password" type="password" placeholder="Password" pattern=".{5,10}" required title="5 to 10 characters">
+		</p>
+
+		<p>
+			<label for="Birthday">Birthday:</label>
+			<select name="month" id="Birthday" placeholder="Month">
+				<option value="00">Month</option>
+				<option value="01">Jan</option>
+				<option value="02">Feb</option>
+				<option value="03">March</option>
+			</select>
+			<select name="day">
+				<option value="00">Day</option>
+				<option value="01">01</option>
+				<option value="02">02</option>
+				<option value="03">03</option>
+			</select>
+			<select name="year">
+				<option value="00">Year</option>
+				<option value="1980">1980</option>
+				<option value="1981">1981</option>
+				<option value="1982">1982</option>
+			</select>
+		</p>
+		<p>I agree to the terms and conditions
+			<input name="consent" type="checkbox" required>
+		</p>
+		<p>
+			<button>Submit</button>
+		</p>
+
+	</form>
+
+
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+h1{
+	color: rgba(0,200,100,.8);
+	
+/*	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+*/
+/*  This compressed syntax is equivilant to the above 3 lines*/
+	border: 5px solid purple;
+}
+
+li{
+	color: green;
+}
+
+h4{
+	color: purple;
+	background: rgb(255, 100, 80);
+}
+
+body{
+	background: url(http://i.imgur.com/P6fqkUZ.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
